@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.header {
+  background-image: url("https://d31kswug2i6wp2.cloudfront.net/blog/wp-content/uploads/2020/04/careerarc-virtual-meeting-background-office-lunch-room-1024x576.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+}
+h1 {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.team-heading h2 {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+h2 {
+  text-align: center;
+}
+.team-description {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.team-heading {
+  text-align: center;
+}
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.team-member {
+  text-align: center;
+  margin: 10px;
+  flex: 0 1 200px;
+}
+.team-member img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
